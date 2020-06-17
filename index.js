@@ -1,5 +1,5 @@
 /*variables*/
-let timeNow = moment().format('dddd, MMMM Do YYYY');
+let timeNow = moment().format('LL');
 let hourNow = moment().format('h');
 let hourNow24= parseInt(moment().format('HH'));
 let hourNowInt = parseInt(hourNow);
@@ -140,10 +140,4 @@ function colorCoding() {
         $('#text'+i).css('background-color', 'lightgreen');
       }
     }
-
 };
-else {
-    clearInterval(TIMER);
-    $('textarea').css;
-  }
-}
